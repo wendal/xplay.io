@@ -1,0 +1,227 @@
+@import "less/variables.less";
+
+body {
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #2f3037;
+}
+
+.xplay-main {
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  background: #ffffff;
+  min-height: 600px;
+}
+
+@container-width: 1170px;
+
+// --------------------- header
+
+// logo
+@header-font-size: 24px;
+@logo-height: 48px;
+@logo-width: 169px;
+@logo-padding: (80px - @logo-height) / 2;
+
+.navbar-brand {
+  padding-top: @logo-padding;
+  padding-bottom: @logo-padding;
+
+  img {
+    width: @logo-width;
+    height: @logo-height;
+    display: inline-block;
+    margin-right: 8px;
+  }
+
+  span {
+    display: inline-block;
+    height: @logo-height;
+    line-height: @logo-height;
+    font-size: @header-font-size * 1.2;
+  }
+}
+
+.navbar-nav {
+  font-size: @header-font-size;
+
+  > li {
+    > a {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+}
+
+// --------------------- preview
+
+.preview-container {
+  margin-top: 96px;
+  background: transparent url('../img/preview-bg-curve.png') center bottom no-repeat;
+  background-size: @container-width 271px;
+  min-height: 271px;
+  overflow: hidden;
+  margin-left: -15px;
+  margin-right: -15px;
+
+  > h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  .preview-slider {
+    img {
+      display: none;
+      margin: 40px auto 0;
+      margin-bottom: -3.3%;
+      width: 90%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: @grid-float-breakpoint) {
+    margin-top: 32px;
+  }
+}
+
+// --------------------------- apk
+
+.apk-container {
+  margin-top: 64px;
+  background: transparent url('../img/apk-bg-curve.png') center bottom no-repeat;
+  background-size: @container-width 76px;
+  min-height: 76px;
+  padding: 0;
+  overflow: hidden;
+
+  .apk-introduction {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  h2 {
+    margin: 10px 0;
+  }
+
+  p {
+    color: #7f8089;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0;
+  }
+
+  .apk-phone {
+    margin: 10px auto 0;
+    //margin-bottom: -35%;
+    display: block;
+    width: 90%;
+    height: auto;
+  }
+
+  .btn {
+    margin-right: 16px;
+  }
+
+  @media (max-width: @grid-float-breakpoint) {
+    h2 {
+      text-align: center;
+      padding: 0;
+    }
+  }
+}
+
+// --------------------------- features
+
+.features-container {
+  margin-top: 64px;
+  padding-left: 10%;
+  padding-right: 10%;
+
+  .features-item {
+    text-align: center;
+    padding: 20px;
+    height: 270px;
+    .icon {
+      font-size: 90px;
+    }
+    @media (max-width: @grid-float-breakpoint) {
+      max-width: 320px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+}
+
+// -------------------------- customer
+
+.customer-container {
+  margin-top: 96px;
+  padding: 68px;
+  background: #37404f;
+  color: #fff;
+  margin-left: -15px;
+  margin-right: -15px;
+
+  .xplay-icon {
+    background: transparent url('../img/xplay-logo-border.png') center center no-repeat;
+    background-size: 128px 128px;
+    width: 128px;
+    height: 128px;
+    margin: -132px auto 50px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .customer-item {
+    padding-left: 5%;
+    padding-right: 5%;
+
+    p {
+      color: #97a0b0;
+      margin-top: 10px;
+    }
+  }
+
+}
+
+// -------------------------- footer
+
+footer {
+  background: #f7f7f7;
+  font-size: 18px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: -15px;
+  margin-right: -15px;
+  overflow: hidden;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #949ead;
+
+  .copyright {
+
+  }
+
+  .company {
+    text-align: right;
+    a {
+      color: #949ead;
+      cursor: pointer;
+    }
+  }
+
+  @media (max-width: @grid-float-breakpoint) {
+    text-align: center;
+    .company {
+      text-align: center;
+    }
+  }
+}
+

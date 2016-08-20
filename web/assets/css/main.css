@@ -1,0 +1,172 @@
+body {
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #2f3037;
+}
+.xplay-main {
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  background: #ffffff;
+  min-height: 600px;
+}
+.navbar-brand {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.navbar-brand img {
+  width: 169px;
+  height: 48px;
+  display: inline-block;
+  margin-right: 8px;
+}
+.navbar-brand span {
+  display: inline-block;
+  height: 48px;
+  line-height: 48px;
+  font-size: 28.8px;
+}
+.navbar-nav {
+  font-size: 24px;
+}
+.navbar-nav > li > a {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.preview-container {
+  margin-top: 96px;
+  background: transparent url('../img/preview-bg-curve.png') center bottom no-repeat;
+  background-size: 1170px 271px;
+  min-height: 271px;
+  overflow: hidden;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.preview-container > h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+}
+.preview-container .preview-slider img {
+  display: none;
+  margin: 40px auto 0;
+  margin-bottom: -3.3%;
+  width: 90%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .preview-container {
+    margin-top: 32px;
+  }
+}
+.apk-container {
+  margin-top: 64px;
+  background: transparent url('../img/apk-bg-curve.png') center bottom no-repeat;
+  background-size: 1170px 76px;
+  min-height: 76px;
+  padding: 0;
+  overflow: hidden;
+}
+.apk-container .apk-introduction {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.apk-container h2 {
+  margin: 10px 0;
+}
+.apk-container p {
+  color: #7f8089;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+.apk-container .apk-phone {
+  margin: 10px auto 0;
+  display: block;
+  width: 90%;
+  height: auto;
+}
+.apk-container .btn {
+  margin-right: 16px;
+}
+@media (max-width: 768px) {
+  .apk-container h2 {
+    text-align: center;
+    padding: 0;
+  }
+}
+.features-container {
+  margin-top: 64px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.features-container .features-item {
+  text-align: center;
+  padding: 20px;
+  height: 270px;
+}
+.features-container .features-item .icon {
+  font-size: 90px;
+}
+@media (max-width: 768px) {
+  .features-container .features-item {
+    max-width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.customer-container {
+  margin-top: 96px;
+  padding: 68px;
+  background: #37404f;
+  color: #fff;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.customer-container .xplay-icon {
+  background: transparent url('../img/xplay-logo-border.png') center center no-repeat;
+  background-size: 128px 128px;
+  width: 128px;
+  height: 128px;
+  margin: -132px auto 50px;
+}
+.customer-container h2 {
+  text-align: center;
+  margin-bottom: 48px;
+}
+.customer-container .customer-item {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.customer-container .customer-item p {
+  color: #97a0b0;
+  margin-top: 10px;
+}
+footer {
+  background: #f7f7f7;
+  font-size: 18px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: -15px;
+  margin-right: -15px;
+  overflow: hidden;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #949ead;
+}
+footer .company {
+  text-align: right;
+}
+footer .company a {
+  color: #949ead;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  footer {
+    text-align: center;
+  }
+  footer .company {
+    text-align: center;
+  }
+}
