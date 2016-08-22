@@ -108,6 +108,7 @@ body {
 }
 .features-container .features-item .icon {
   font-size: 90px;
+  color: #888;
 }
 @media (max-width: 768px) {
   .features-container .features-item {
@@ -170,4 +171,30 @@ footer .company a {
   footer .company {
     text-align: center;
   }
+}
+.doc-container {
+  margin-top: 64px;
+  margin-bottom: 64px;
+  background: transparent url('../img/apk-bg-curve.png') center bottom no-repeat;
+  background-size: 1170px 76px;
+  min-height: 76px;
+  padding: 0;
+  overflow: hidden;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.doc-container h1 {
+  margin: 20px 0 40px 0;
+  font-size: 30px;
+}
+.doc-container h2 {
+  color: #7f8089;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+.doc-container img {
+  display: block;
+  width: 100%;
+  height: auto;
 }

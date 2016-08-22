@@ -149,6 +149,7 @@ body {
     height: 270px;
     .icon {
       font-size: 90px;
+      color: #888;
     }
     @media (max-width: @grid-float-breakpoint) {
       max-width: 320px;
@@ -229,3 +230,36 @@ footer {
   }
 }
 
+// ------------------------------------- 文档
+
+.doc-container {
+  margin-top: 64px;
+  margin-bottom: 64px;
+  background: transparent url('../img/apk-bg-curve.png') center bottom no-repeat;
+  background-size: @container-width 76px;
+  min-height: 76px;
+  padding: 0;
+  overflow: hidden;
+
+  padding-left: 10%;
+  padding-right: 10%;
+
+
+  h1 {
+    margin: 20px 0 40px 0;
+    font-size: 30px;
+  }
+
+  h2 {
+    color: #7f8089;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
