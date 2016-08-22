@@ -1,13 +1,13 @@
-# °²×°kingroot²¢ÉèÖÃ×Ô¶¯ÔÊÐí
+# å®‰è£…kingrootå¹¶è®¾ç½®è‡ªåŠ¨å…è®¸
 
-## ÏÂÔØkingroot.apk²¢·ÅÖÃÓÚUÅÌÄÚ,²åÈëµçÊÓ»úµÄUSB¿Ú,°´ÌáÊ¾°²×°ºó,Æô¶¯Ö®
+## ä¸‹è½½kingroot.apkå¹¶æ”¾ç½®äºŽUç›˜å†…,æ’å…¥ç”µè§†æœºçš„USBå£,æŒ‰æç¤ºå®‰è£…åŽ,å¯åŠ¨ä¹‹
 
-![kingrootÆô¶¯](kingroot_startup.png)
+![kingrootå¯åŠ¨](kingroot_startup.png)
 
-## °´×¡Êó±ê×ó¼ü,ÍùÉÏÍÏ¶¯¶à´Î,Ö±ÖÁ³öÏÖÏÂÍ¼ËùÊ¾,µã»÷½øÈë
+## æŒ‰ä½é¼ æ ‡å·¦é”®,å¾€ä¸Šæ‹–åŠ¨å¤šæ¬¡,ç›´è‡³å‡ºçŽ°ä¸‹å›¾æ‰€ç¤º,ç‚¹å‡»è¿›å…¥
 
-![kingrootÆô¶¯2](kingroot_startup_2.png)
+![kingrootå¯åŠ¨2](kingroot_startup_2.png)
 
-## ½øÈëÖ÷½çÃæºó,µã»÷×îÉÏ·½µÄ´ó°´Å¥¼´¿É
+## è¿›å…¥ä¸»ç•Œé¢åŽ,ç‚¹å‡»æœ€ä¸Šæ–¹çš„å¤§æŒ‰é’®å³å¯
 
-Ä¾ÓÐ½ØÍ¼...
+æœ¨æœ‰æˆªå›¾...
