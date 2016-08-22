@@ -248,7 +248,7 @@ footer {
     font-size: 30px;
   }
 
-  h2 {
+  h2, p {
     color: #7f8089;
     font-size: 18px;
     line-height: 1.6;
@@ -261,11 +261,59 @@ footer {
     height: auto;
   }
 
-  // affix
-  #doc-affix {
-    ul {
+}
+
+// --------------------------------------- 下载
+
+.download-container {
+  margin-top: 64px;
+  margin-bottom: 64px;
+  background: transparent url('../img/apk-bg-curve.png') center bottom no-repeat;
+  background-size: @container-width 76px;
+  min-height: 76px;
+  padding: 0;
+  overflow: hidden;
+
+  padding-left: 5%;
+  padding-right: 5%;
+
+  .app_item {
+
+    img {
+      width: 85%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #7f8089;
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+
+    .btn {
       margin-top: 20px;
+      margin-bottom: 30px;
     }
   }
 
+  @media (max-width: @grid-float-breakpoint) {
+    margin-top: 24px;
+    text-align: center;
+
+    .app_item {
+      img {
+        width: 128px;
+      }
+    }
+
+  }
+}
+
+// affix
+#page-affix {
+  ul {
+    margin-top: 20px;
+  }
 }

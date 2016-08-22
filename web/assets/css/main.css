@@ -186,7 +186,8 @@ footer .company a {
   margin: 20px 0 40px 0;
   font-size: 30px;
 }
-.doc-container h2 {
+.doc-container h2,
+.doc-container p {
   color: #7f8089;
   font-size: 18px;
   line-height: 1.6;
@@ -197,6 +198,41 @@ footer .company a {
   width: 100%;
   height: auto;
 }
-.doc-container #doc-affix ul {
+.download-container {
+  margin-top: 64px;
+  margin-bottom: 64px;
+  background: transparent url('../img/apk-bg-curve.png') center bottom no-repeat;
+  background-size: 1170px 76px;
+  min-height: 76px;
+  padding: 0;
+  overflow: hidden;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.download-container .app_item img {
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.download-container .app_item p {
+  color: #7f8089;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+.download-container .app_item .btn {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .download-container {
+    margin-top: 24px;
+    text-align: center;
+  }
+  .download-container .app_item img {
+    width: 128px;
+  }
+}
+#page-affix ul {
   margin-top: 20px;
 }
