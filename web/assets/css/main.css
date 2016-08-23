@@ -183,7 +183,7 @@ footer .company a {
   padding-right: 5%;
 }
 .doc-container h1 {
-  margin: 20px 0 40px 0;
+  margin: 20px 0 20px 0;
   font-size: 30px;
 }
 .doc-container h2,
@@ -198,6 +198,11 @@ footer .company a {
   width: 100%;
   height: auto;
 }
+@media (max-width: 768px) {
+  .doc-container h1 {
+    text-align: center;
+  }
+}
 .download-container {
   margin-top: 64px;
   margin-bottom: 64px;
@@ -208,6 +213,10 @@ footer .company a {
   overflow: hidden;
   padding-left: 5%;
   padding-right: 5%;
+}
+.download-container h2 {
+  margin: 20px 0 40px 0;
+  font-size: 30px;
 }
 .download-container .app_item img {
   width: 85%;

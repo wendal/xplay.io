@@ -244,7 +244,7 @@ footer {
   padding-right: 5%;
 
   h1 {
-    margin: 20px 0 40px 0;
+    margin: 20px 0 20px 0;
     font-size: 30px;
   }
 
@@ -259,6 +259,12 @@ footer {
     display: block;
     width: 100%;
     height: auto;
+  }
+
+  @media (max-width: @grid-float-breakpoint) {
+    h1 {
+      text-align: center;
+    }
   }
 
 }
@@ -276,6 +282,11 @@ footer {
 
   padding-left: 5%;
   padding-right: 5%;
+
+  h2 {
+    margin: 20px 0 40px 0;
+    font-size: 30px;
+  }
 
   .app_item {
 
