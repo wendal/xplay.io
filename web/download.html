@@ -13,6 +13,7 @@
 </head>
 <body>
 <div class="xplay-main container">
+
     <!--顶部导航-->
     <header role="banner">
         <nav class="navbar navbar-default">
@@ -25,16 +26,34 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.html">
-                    <img alt="Xplay" src="assets/img/xplay-logo-label.png">
+                    <img alt="Xplay" src="assets/img/dnet-logo.png"> <span>德纳科技</span>
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html">概述</a></li>
-                    <li><a href="document.html">文档</a></li>
-                    <li class="active"><a href="download.html">下载</a></li>
-                    <li><a href="https://shop111154671.taobao.com/" target="_blank">商城</a></li>
-                    <li><a href="http://cherry.danoolive.com:8080/" target="_blank">后台</a></li>
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">xplay系列<span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Android版本</a></li>
+                            <li><a href="#">Windows版本</a></li>
+                            <li><a href="#">Linux版本</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="document_strato.html">strato系统</a></li>
+                    <li class="active"><a href="download.html">软件下载</a></li>
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">解决方案<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a href="https://item.taobao.com/item.htm?spm=a1z10.1-c.w5002-14262609988.3.fKARcm&id=532089190370&scene=taobao_shop"
+                                   target="_blank">电视广告机</a></li>
+                            <li>
+                                <a href="https://item.taobao.com/item.htm?spm=2013.1.w5002-14262609988.4.nxX9JJ&id=538005932080&scene=taobao_shop"
+                                   target="_blank">安卓播放盒</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>
@@ -49,10 +68,11 @@
                         <img src="assets/img/xplay-logo.png">
                     </div>
                     <div class="col-sm-6">
-                        <p>版本: xplay</p>
+                        <p>版本: xplay-android</p>
                         <p>版本: 1608181526</p>
                         <p>更新: 2016-08-18</p>
-                        <button type="button" class="btn btn-lg btn-success app_xplay">下载</button>
+                        <button type="button" class="btn btn-lg btn-success software_download" snm="xplay.apk">下载
+                        </button>
                     </div>
                 </div>
             </div>
@@ -65,7 +85,21 @@
                         <p>软件: kingroot</p>
                         <p>版本: 3.3.0.1132</p>
                         <p>更新: 2016-08-08</p>
-                        <button type="button" class="btn btn-lg btn-success app_kingroot">下载</button>
+                        <button type="button" class="btn btn-lg btn-success software_download" snm="kingroot.apk">下载
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="row app_item">
+                    <div class="col-sm-6">
+                        <img src="assets/img/xplay-logo-win.png">
+                    </div>
+                    <div class="col-sm-6">
+                        <p>版本: xplay-windows</p>
+                        <p>版本: 1.0.0</p>
+                        <p>更新: 2016-09-05</p>
+                        <button type="button" class="btn btn-lg btn-success software_download" snm="win.exe">下载</button>
                     </div>
                 </div>
             </div>
@@ -78,11 +112,12 @@
         <div class="row">
             <h1>系统支持</h1>
             <div class="col-sm-12">
-                <p>Xplay数字标牌系统提供免费Android客户端,可安装于任意Android 4.3+电视及网络机顶盒上</p>
+                <p>xplay-Android客户端,可安装于任意Android 4.3+电视及网络机顶盒上</p>
+                <p>xplay-Windows客户端,可安装于winxp, win7, win8等32/64位系统上</p>
             </div>
         </div>
         <div class="row">
-            <h1>兼容性列表</h1>
+            <h1>Android设备兼容性列表</h1>
             <div class="col-sm-12">
                 <table class="table table-bordered">
                     <thead>

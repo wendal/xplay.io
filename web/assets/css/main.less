@@ -17,11 +17,15 @@ body {
 
 // --------------------- header
 
+header {
+  margin-top: 8px;
+}
+
 // logo
 @header-font-size: 24px;
-@logo-height: 48px;
-@logo-width: 169px;
-@logo-padding: (80px - @logo-height) / 2;
+@logo-height: 24px;
+@logo-width: 88px;
+@logo-padding: (50px - @logo-height) / 2;
 
 .navbar-brand {
   padding-top: @logo-padding;
@@ -31,26 +35,40 @@ body {
     width: @logo-width;
     height: @logo-height;
     display: inline-block;
-    margin-right: 8px;
+    margin-right: 0px;
+    margin-top: -6px;
   }
 
   span {
     display: inline-block;
-    height: @logo-height;
-    line-height: @logo-height;
-    font-size: @header-font-size * 1.2;
+    font-size: @header-font-size * 1;
+    color: #ff8800;
   }
 }
 
 .navbar-nav {
   font-size: @header-font-size;
 
+  .dropdown-menu a {
+    font-size: @header-font-size * 0.9;
+  }
+
   > li {
     > a {
-      padding-left: 20px;
-      padding-right: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
     }
   }
+}
+
+// --------------------  intro
+
+.intro-bg {
+  background: transparent url('../img/banner-top.jpg') center bottom no-repeat;
+  background-size: @container-width 400px;
+  min-height: 400px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 // --------------------- preview
