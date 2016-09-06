@@ -28,4 +28,10 @@ $(document).ready(function () {
     setInterval(function () {
         nextPreview();
     }, 4000);
+    
+    
+    // 跳转strato
+    $('.goto_strato').click(function () {
+        window.open('http://cherry.danoolive.com:8080/u/login');
+    });
 });
