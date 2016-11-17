@@ -32,6 +32,6 @@ $(document).ready(function () {
     
     // 跳转strato
     $('.goto_strato').click(function () {
-        window.open('http://cherry.danoolive.com:8080/u/login');
+        window.open('http://cherry.danoolive.com/u/login');
     });
 });
